@@ -115,7 +115,7 @@ pairs(~Density+MachineD+CrossD,data=dat,main="Scatterplot Matrix", pch=19) # not
 
 # Lots of ways to do this!
 library(car) # 1 of over 10,000 R packages...
-scatterplot.matrix(~Density+MachineD+CrossD,data=dat,diagonal=list(method="boxplot"), main="Scatterplot Matrix")
+scatterplotMatrix(~Density+MachineD+CrossD,data=dat,diagonal=list(method="boxplot"), main="Scatterplot Matrix")
 
 # Example 1.6
 rm(list=ls())
