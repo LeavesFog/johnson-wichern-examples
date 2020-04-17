@@ -15,7 +15,7 @@ x1 <- c(42,52,48,58)
 x2 <- c(4,5,4,3)
 Xdf <- data.frame(Variable1=x1,Variable2=x2)
 
-print (X) 
+print (Xdf) 
 
 # Example 1.2
 # A bit about accessing matrix elements
